@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,800;1,900&display=swap');
+*{margin: 0;padding: 0;box-sizing: border-box;}
+html,body{height: 100vh; font-family: 'Montserrat', sans-serif;}
+.brd{border: 3px solid}
+
+:root{
+    --bg:#4E2096;
+    --hv:#6D30CF;
+    --df:flex;
+	--jcc:center;
+	--jca:space-around;
+	--jcb:space-betwween;
+	--ai:center;
+	--bgp:#000;
+	--bgb:#fff;
+}
+
+.center{display:var(--df);justify-content: var(--jcc);align-items: var(--ai);}
+.margin{display:var(--df);justify-content: var(--jca);align-items: var(--ai);}
+.space{display:var(--df);justify-content: var(--jcb);align-items: var(--ai);}
+
+
+
+.cor{background-color: var(--bg)}
+.modal{background:red; position: absolute; top: 5rem; right:1rem}
+
+.desconto{width:100vw; height:100vh; padding:1rem; color:var(--bg)}
+.desconto h1{font-family: 'Cooper Black'; font-size: 35pt; text-align:center;}
+.desconto h3{text-align:center}
+.dados{width:1240px;  margin: 1rem auto; border-radius: 1.5rem;}
+
+
+.link:hover{color:var(--bg); font-weight:bold;cursor:pointer}
+.btn{font-size:13pt; width:270px; height: 42px; border:0; border-radius:.5rem; color: #fff; background-color: var(--bg)}
+.btn:hover{background-color:var(--hv); cursor: pointer;}
+
+.marca{width:1100px; height:auto; flex-wrap:wrap; gap:1rem; margin:1rem auto;}
+.img{width:215px; padding: .5rem}
+.img img{width: 100%}
